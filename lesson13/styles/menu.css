@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.ul-wrap {
+    display: flex;
+}
+
+.list-item {
+    background: white;
+    width: 180px;
+}
+
+.list-item a {
+    display: block;
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+}
+
+.list-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+.drop-dawn {
+    position: relative;
+    display: none;
+}
+
+.drop-dawn2 {
+    position: absolute;
+    top: 50%;
+    right: -182px;
+}
+
+.drop-child, .drop-child2 {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.list-item:hover > .drop-dawn {
+    display: initial;
+}
